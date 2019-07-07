@@ -1,0 +1,33 @@
+.name {
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+header .name h2 {
+  clear: both;
+}
+#featured-work h2 {
+  margin-top: 9%;
+}
+header .logo {
+  width: 86%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+header .logo img {
+  width: 83%;
+}
+#featured-work div.work-sample {
+  width: 46%;
+  margin-bottom: 11px;
+  margin-right: 4%;
+}
+#featured-work div.work-sample h3 {
+  margin: 0;
+  font-size: 13px;
+}
+#featured-work div.work-sample a {
+  word-wrap: break-word;
+}

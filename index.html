@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alaa's Porfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="only screen and (min-width: 400px) and (max-width: 800px)"
+      href="assets/css/tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="only screen and (max-width: 400px)"
+      href="assets/css/mobile.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="">
+          <img src="assets/img/logo.png" alt="Udacity logo" />
+        </a>
+      </div>
+      <div class="name">
+        <h1>Alaa Hammouda</h1>
+        <h2>Frontend software engineer</h2>
+      </div>
+    </header>
+    <div id="container">
+      <section id="main-image">
+        <!-- <img src="assets/img/pic.jpeg" alt="" /> -->
+        <picture>
+          <img
+            sizes="(max-width: 1000px) 100vw, 1000px"
+            srcset="
+              assets/img/main-pic/pic_am6ph5_c_scale,w_200.jpg   200w,
+              assets/img/main-pic/pic_am6ph5_c_scale,w_479.jpg   479w,
+              assets/img/main-pic/pic_am6ph5_c_scale,w_699.jpg   699w,
+              assets/img/main-pic/pic_am6ph5_c_scale,w_877.jpg   877w,
+              assets/img/main-pic/pic_am6ph5_c_scale,w_1000.jpg 1000w
+            "
+            src="assets/img/main-pic/pic_am6ph5_c_scale,w_1000.jpg"
+            alt="Main picture"
+          />
+        </picture>
+      </section>
+      <section id="featured-work">
+        <h2 class="title">Featured Work</h2>
+        <div class="work-sample">
+          <img src="assets/img/sample.jpg" alt="Harankash mobile app" />
+          <h3>Harankash app</h3>
+          <a href="https://harankash.com/">https://harankash.com/</a>
+        </div>
+        <div class="work-sample">
+          <img src="assets/img/sample.jpg" alt="Harankash mobile app" />
+          <h3>Harankash app</h3>
+          <a href="https://harankash.com/">https://harankash.com/</a>
+        </div>
+        <div class="work-sample">
+          <img src="assets/img/sample.jpg" alt="Harankash mobile app" />
+          <h3>Harankash app</h3>
+          <a href="https://harankash.com/">https://harankash.com/</a>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+header {
+  padding-top: 4.8%;
+}
+.name {
+  font-size: 12px;
+}
+
+#featured-work h2 {
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+#featured-work .work-sample {
+  width: 48%;
+  margin-bottom: 2%;
+}
